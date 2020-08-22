@@ -117,7 +117,7 @@ function init() {
   particlesArray = []
   const numberOfParticles = (canvas.height * canvas.width) / 9000
 
-  for (let i = 0; i < numberOfParticles * 2; i++) {
+  for (let i = 0; i < numberOfParticles; i++) {
     const size = (Math.random() * 5) + 1
     const x = (Math.random() * ((innerWidth - size * 2) - (size * 2)) + size * 2)
     const y = (Math.random() * ((innerHeight - size * 2) - (size * 2)) + size * 2)
